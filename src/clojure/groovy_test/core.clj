@@ -17,7 +17,7 @@
 (defn- hello-javascript []
   (let [config (Config.)
         dynjs (DynJS. config)]
-    (.evaluate dynjs "System = java.lang.System; System.out.println(\"I'm running this code inside JavaScript with DynJS\");")))
+    (.evaluate dynjs (slurp "src/js/hello_javascript.js"))))
 
 (defn -main [& args]
   (hello-clojure)
