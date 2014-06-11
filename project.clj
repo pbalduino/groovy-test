@@ -7,7 +7,8 @@
   :groovy-source-paths ["src/groovy"]
   :java-source-paths   ["src/java"]
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [lein-groovyc "0.3.0"]]
+                 [lein-groovyc        "0.3.0"]
+                 [org.dynjs/dynjs     "0.2.2"]]
   :plugins      [[lein-groovyc "0.3.0"]]
   :aot  [groovy-test.core]
   :main groovy-test.core)
