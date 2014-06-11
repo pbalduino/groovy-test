@@ -1,14 +1,4 @@
-# groovy-test
+You will need lein-groovyc 0.3.0+ that you can find at https://github.com/pbalduino/lein-groovyc
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Then you can run: 
+lein do clean, groovyc, run
